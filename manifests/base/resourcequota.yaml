@@ -1,0 +1,31 @@
+# Purpose: Set resource quotas for the Campus Notice Board.
+# Apply: kubectl apply -f manifests/base/resourcequota.yaml
+
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  # Identifies the resource quota.
+  name: notice-board-quota
+
+  # Apply quota only to the assessed namespace.
+  namespace: nb-02230125
+
+spec:
+  hard:
+    # Maximum total CPU requests: 1 CPU core.
+    requests.cpu: "1"
+
+    # Maximum total requested memory: 1 GiB.
+    requests.memory: 1Gi
+
+    # Maximum total CPU limits: 2 CPU cores.
+    limits.cpu: "2"
+
+    # Maximum total memory limits: 2 GiB.
+    limits.memory: 2Gi
+
+    # Allow up to 15 Pods including the monitor.
+    pods: "15"
+
+    # Allow up to 4 Services for production and preview.
+    count/services: "4"

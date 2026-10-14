@@ -1,0 +1,19 @@
+# Purpose: Create the assessed Campus Notice Board namespace.
+# Apply: kubectl apply -f manifests/base/namespace.yaml
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  # Namespace must include the student's ID.
+  name: nb-02230125
+
+  labels:
+    # Identifies the application associated with this namespace.
+    app.kubernetes.io/part-of: campus-notice-board
+
+    # Identifies the practical using the PDF's required value.
+    cte412/practical: "06"
+
+  annotations:
+    # Records the student's full name for assessment.
+    cte412/student-name: "Gyeltshen Lepcha"

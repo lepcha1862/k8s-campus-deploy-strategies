@@ -1,0 +1,23 @@
+# Purpose: Configure the Campus Notice Board kind cluster.
+# Apply: kind create cluster --config cluster/kind-cluster.yaml
+# Replace your-sid with your actual student ID before creation.
+
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+
+# Required cluster name for the assessed lab.
+name: cte412-02230125
+
+# Three nodes: one control plane and two workers.
+nodes:
+  - role: control-plane
+
+    # Map the required NodePort to the Windows host.
+    extraPortMappings:
+      - containerPort: 30090 # Target NodePort inside kind.
+        hostPort: 30090       # Host access port.
+        listenAddress: "127.0.0.1" # Restrict access to localhost.
+        protocol: TCP         # Protocol used for HTTP connections.
+
+  - role: worker # First worker node.
+  - role: worker # Second worker node.
