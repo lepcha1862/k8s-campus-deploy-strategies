@@ -1,0 +1,39 @@
+# Purpose: Expose the Campus Notice Board through NodePort 30090.
+# Apply: kubectl apply -f manifests/rolling/service-ext.yaml
+
+apiVersion: v1
+kind: Service
+
+metadata:
+  # External Service name required by Task 3.
+  name: notice-board-ext
+
+  # Use the assessed namespace.
+  namespace: nb-02230125
+
+  labels:
+    # Identify this Service as part of the application.
+    app: notice-board
+
+spec:
+  # Expose the application using a Kubernetes NodePort.
+  type: NodePort
+
+  selector:
+    # Select all notice-board Pods, regardless of version.
+    app: notice-board
+
+  ports:
+    - name: http
+
+      # HTTP uses TCP.
+      protocol: TCP
+
+      # Service port for incoming requests.
+      port: 80
+
+      # Forward to the named container port (8080).
+      targetPort: http
+
+      # Must match the kind cluster's port mapping.
+      nodePort: 30090

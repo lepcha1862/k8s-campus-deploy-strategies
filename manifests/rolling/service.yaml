@@ -1,0 +1,35 @@
+# Purpose: Expose the Campus Notice Board within Kubernetes.
+# Apply: kubectl apply -f manifests/rolling/service.yaml
+
+apiVersion: v1
+kind: Service
+
+metadata:
+  # Internal Service name required by Task 3.
+  name: notice-board
+
+  # Student-specific assessment namespace.
+  namespace: nb-02230125
+
+  labels:
+    # Identifies the Service as part of the application.
+    app: notice-board
+
+spec:
+  # Restrict access to the Kubernetes cluster.
+  type: ClusterIP
+
+  selector:
+    # Select all application Pods regardless of version.
+    app: notice-board
+
+  ports:
+    # Use TCP for the HTTP API.
+    - name: http
+      protocol: TCP
+
+      # Internal Service port required by Task 3.
+      port: 80
+
+      # Forward requests to the named container port 8080.
+      targetPort: http
