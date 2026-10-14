@@ -1,0 +1,102 @@
+
+# Purpose: Monitor Campus Notice Board availability every 0.5 seconds.
+# Apply: kubectl apply -f manifests/base/monitor.yaml
+
+apiVersion: v1
+kind: Pod
+
+metadata:
+  # Fixed name enables continuous monitoring throughout the lab.
+  name: monitor
+
+  # Monitor the application in its assessment namespace.
+  namespace: nb-02230125
+
+  labels:
+    # Keep the monitor out of the notice-board Service selector.
+    app: availability-monitor
+
+spec:
+  # Restart the monitor if its process unexpectedly exits.
+  restartPolicy: Always
+
+  # The monitor does not need Kubernetes API credentials.
+  automountServiceAccountToken: false
+
+  containers:
+    - name: monitor
+
+      # Reuse an Alpine-based image already loaded into kind.
+      image: notice-board:02230125-1.0.0
+
+      # Never attempt a registry download.
+      imagePullPolicy: Never
+
+      # Override the application server with monitoring code.
+      command: ["python", "-u", "-c"]
+
+      args:
+        - |
+          import time
+          from datetime import datetime, timezone
+          from urllib.request import urlopen
+
+          URL = "http://notice-board/version"
+          INTERVAL = 0.5
+
+          next_request = time.monotonic()
+
+          while True:
+              timestamp = datetime.now(
+                  timezone.utc
+              ).isoformat(timespec="milliseconds").replace(
+                  "+00:00", "Z"
+              )
+
+              try:
+                  with urlopen(URL, timeout=0.4) as response:
+                      body = response.read().decode("utf-8")
+                      body = body.replace("\n", " ").replace("\r", " ")
+
+                      if response.status == 200:
+                          print(
+                              f"{timestamp} OK {body}",
+                              flush=True
+                          )
+                      else:
+                          print(
+                              f"{timestamp} FAIL HTTP {response.status} {body}",
+                              flush=True
+                          )
+
+              except Exception as error:
+                  message = str(error).replace("\n", " ")
+                  message = message.replace("\r", " ")
+
+                  print(
+                      f"{timestamp} FAIL {type(error).__name__}: {message}",
+                      flush=True
+                  )
+
+              next_request += INTERVAL
+              remaining = next_request - time.monotonic()
+
+              if remaining > 0:
+                  time.sleep(remaining)
+              else:
+                  next_request = time.monotonic()
+
+      resources:
+        requests:
+          # Small CPU request leaves capacity for blue/green.
+          cpu: "50m"
+
+          # Memory request fits within the namespace quota.
+          memory: "64Mi"
+
+        limits:
+          # Limit CPU usage to preserve resources for releases.
+          cpu: "100m"
+
+          # Memory limit fits with six application replicas.
+          memory: "128Mi"
