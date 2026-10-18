@@ -1,0 +1,27 @@
+
+30m         Normal    Scheduled           pod/notice-board-59dd689c8b-886zx    Successfully assigned
+nb-02230125/notice-board-59dd689c8b-886zx to cte412-02230125-worker
+9m16s       Normal    Scheduled           pod/notice-board-59dd689c8b-bzjn5    Successfully assigned
+nb-02230125/notice-board-59dd689c8b-bzjn5 to cte412-02230125-worker
+30m         Normal    SuccessfulCreate    replicaset/notice-board-59dd689c8b   Created pod: notice-board-59dd689c8b-886zx
+30m         Normal    Pulled              pod/notice-board-59dd689c8b-886zx    Container image "notice-board:02230125-1.2.0-broken" already
+present on machine and can be accessed by the pod
+30m         Normal    Created             pod/notice-board-59dd689c8b-886zx    Container created
+30m         Normal    Started             pod/notice-board-59dd689c8b-886zx    Container started
+30m         Warning   Unhealthy           pod/notice-board-59dd689c8b-886zx    Readiness probe failed: Get "http://10.244.2.3:8080/healthz":
+dial tcp 10.244.2.3:8080: connect: connection refused
+20m         Normal    Killing             pod/notice-board-59dd689c8b-886zx    Stopping container notice-board
+20m         Normal    SuccessfulDelete    replicaset/notice-board-59dd689c8b   Deleted pod: notice-board-59dd689c8b-886zx
+20m         Warning   Unhealthy           pod/notice-board-59dd689c8b-886zx    Readiness probe failed: HTTP probe failed with statuscode: 503
+9m17s       Normal    SuccessfulCreate    replicaset/notice-board-59dd689c8b   Created pod: notice-board-59dd689c8b-bzjn5
+9m17s       Normal    ScalingReplicaSet   deployment/notice-board              Scaled up replica set notice-board-59dd689c8b from 0 to 1
+9m16s       Normal    Started             pod/notice-board-59dd689c8b-bzjn5    Container started
+9m16s       Warning   Unhealthy           pod/notice-board-59dd689c8b-bzjn5    Readiness probe failed: Get "http://10.244.2.4:8080/healthz":
+dial tcp 10.244.2.4:8080: connect: connection refused
+9m16s       Normal    Created             pod/notice-board-59dd689c8b-bzjn5    Container created
+9m16s       Normal    Pulled              pod/notice-board-59dd689c8b-bzjn5    Container image "notice-board:02230125-1.2.0-broken" already
+present on machine and can be accessed by the pod
+8m28s       Warning   Unhealthy           pod/notice-board-59dd689c8b-bzjn5    Readiness probe failed: HTTP probe failed with statuscode: 503
+8m3s        Normal    Killing             pod/notice-board-59dd689c8b-bzjn5    Stopping container notice-board
+8m3s        Normal    SuccessfulDelete    replicaset/notice-board-59dd689c8b   Deleted pod: notice-board-59dd689c8b-bzjn5
+8m3s        Normal    ScalingReplicaSet   deployment/notice-board              Scaled down replica set notice-board-59dd689c8b from 1 to 0

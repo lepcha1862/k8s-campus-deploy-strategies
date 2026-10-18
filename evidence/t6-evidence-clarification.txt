@@ -1,0 +1,9 @@
+﻿Task 6 - Evidence clarification
+
+1. evidence/t6-monitor-summary.txt records 255 requests and zero failed requests. All recorded responses were from version 1.1.0.
+2. evidence/t6-broken-readiness-events.txt records readiness probe failures for image 1.2.0-broken, including connection refused and HTTP 503.
+3. evidence/t6-post-rollback-conditions.txt records the healthy Deployment after rollback: 3 available replicas using version 1.1.0. It is not the failed-rollout condition snapshot.
+4. evidence/t6-timing.txt records the apply and rollback times. Its FAILURE_OBSERVED_UTC timestamp occurs less than one second after apply and does not establish that the 60-second progress deadline expired.
+5. The ProgressDeadlineExceeded condition was observed during the test, but the saved condition snapshot does not preserve it. The currently retained events do not independently confirm that condition.
+
+The evidence supports the unhealthy release, zero observed monitor failures, and successful recovery. The saved files do not independently prove the exact time at which the progress deadline was exceeded.

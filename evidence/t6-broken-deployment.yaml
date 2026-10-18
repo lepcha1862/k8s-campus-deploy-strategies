@@ -1,0 +1,109 @@
+
+# Purpose: Deploy three replicas of Campus Notice Board v1.0.0.
+# Apply: kubectl apply -f manifests/rolling/deployment.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  # Required Deployment name for Task 3.
+  name: notice-board
+
+  # Student-specific assessment namespace.
+  namespace: nb-02230125
+
+  annotations:
+    # Record the purpose of the RollingUpdate revision.
+    kubernetes.io/change-cause: "Task 6: Restore healthy release 1.1.0 after rollback"
+
+  labels:
+    # Allows Deployment, ReplicaSet and Pods
+    # to be listed using the same app label.
+    app: notice-board
+
+spec:
+  # Report failure if the rollout makes no progress for 60 seconds.
+  progressDeadlineSeconds: 60
+
+  # Three replicas provide multiple application instances.
+  replicas: 3
+
+  # A new Pod must remain Ready for 5 seconds to count as available.
+  minReadySeconds: 5
+
+  # Replace Pods gradually while maintaining availability.
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      # Do not deliberately reduce available replicas below three.
+      maxUnavailable: 0
+
+      # Allow one extra Pod during the rollout.
+      maxSurge: 1
+
+  selector:
+    matchLabels:
+      # Deployment manages Pods with this application label.
+      app: notice-board
+
+  template:
+    metadata:
+      labels:
+        # Identifies Pods for the Deployment and Services.
+        app: notice-board
+
+        version: "1.1.0"
+
+    spec:
+      containers:
+        - name: notice-board
+
+          # Locally built healthy release image containing the student ID.
+          image: notice-board:02230125-1.1.0
+          imagePullPolicy: Never
+
+          ports:
+            # Named HTTP port used by Services and probes.
+            - name: http
+              containerPort: 8080
+
+          resources:
+            requests:
+              # Six release Pods plus monitor fit under 1 CPU.
+              cpu: "100m"
+
+              # Six release Pods plus monitor fit under 1Gi.
+              memory: "96Mi"
+
+            limits:
+              # Seven planned containers fit below 2 CPU.
+              cpu: "200m"
+
+              # Seven planned containers fit below 2Gi.
+              memory: "192Mi"
+
+          readinessProbe:
+            httpGet:
+              # Unhealthy during warm-up and broken releases.
+              path: /healthz
+
+              # Uses the named container port.
+              port: http
+
+            # Check frequently to detect readiness changes.
+            periodSeconds: 2
+
+            # Mark unready after one unsuccessful check.
+            failureThreshold: 1
+
+          livenessProbe:
+            httpGet:
+              # Do not use /healthz: the broken release must
+              # stay running but fail readiness for Task 6.
+              path: /version
+
+              # Use the same named HTTP port.
+              port: http
+
+            # Allow the Python server time to start.
+            initialDelaySeconds: 5

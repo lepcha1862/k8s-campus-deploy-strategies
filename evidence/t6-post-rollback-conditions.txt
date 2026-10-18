@@ -1,0 +1,7 @@
+Rollout exit code: 0
+Progressing status: True
+Progressing reason: NewReplicaSetAvailable
+Progressing message: ReplicaSet "notice-board-844f776766" has successfully progressed.
+Available replicas: 3
+Desired replicas: 3
+Current desired image: notice-board:02230125-1.1.0
