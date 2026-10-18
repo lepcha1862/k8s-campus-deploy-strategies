@@ -1,0 +1,19 @@
+Task 5 - Deployment Revision History
+
+Earlier rollout history showed:
+Revision 2: Task 5: Recreate release 1.1.0
+Revision 3: Task 5: Restore version 1.0.0 after Recreate test
+
+After the RollingUpdate, rollout history showed:
+Revision 3: Task 5: Restore version 1.0.0 after Recreate test
+Revision 4: Task 5: RollingUpdate release 1.1.0
+
+ReplicaSet notice-board-844f776766:
+Current revision: 4
+Previous revision: 2
+Image: notice-board:02230125-1.1.0
+
+Explanation:
+Kubernetes reused the existing version 1.1.0 ReplicaSet.
+The revision-history annotation preserves the earlier revision number.
+The original Recreate results are preserved in the Task 5 evidence files.

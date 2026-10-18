@@ -1,0 +1,9 @@
+===== Availability Monitor Summary =====
+Total requests: 146
+Failed requests: 27
+First timestamp: 2026-10-14T18:18:46.190Z
+Last timestamp:  2026-10-14T18:19:54.780Z
+Responses per version:
+  1.0.0: 90
+  1.1.0: 29
+========================================

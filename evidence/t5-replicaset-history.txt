@@ -1,0 +1,18 @@
+
+
+ReplicaSet        : notice-board-774b8f65cb
+CurrentRevision   : 3
+PreviousRevisions : 1
+ChangeCause       : Task 5: Restore version 1.0.0 after Recreate test
+Image             : notice-board:02230125-1.0.0
+DesiredReplicas   : 0
+
+ReplicaSet        : notice-board-844f776766
+CurrentRevision   : 4
+PreviousRevisions : 2
+ChangeCause       : Task 5: RollingUpdate release 1.1.0
+Image             : notice-board:02230125-1.1.0
+DesiredReplicas   : 3
+
+
+

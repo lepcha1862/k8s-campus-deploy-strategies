@@ -1,0 +1,5 @@
+deployment.apps/notice-board 
+REVISION  CHANGE-CAUSE
+3         Task 5: Restore version 1.0.0 after Recreate test
+4         Task 5: RollingUpdate release 1.1.0
+

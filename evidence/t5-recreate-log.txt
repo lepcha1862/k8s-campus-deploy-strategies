@@ -1,0 +1,146 @@
+2026-10-14T18:18:46.190Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:46.690Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:18:47.190Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:18:47.690Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:48.190Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:18:48.690Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:49.190Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:49.690Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:18:50.190Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:18:50.690Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:51.190Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:18:51.690Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:18:52.190Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:18:52.690Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:18:53.190Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:18:53.690Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:54.190Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:18:53.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:53.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:54.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:18:54.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:18:55.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:55.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:56.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:56.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:18:57.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:18:57.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:18:58.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:58.572Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:18:59.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:18:59.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:00.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:00.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:01.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:01.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:02.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:02.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:03.069Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:03.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:04.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:04.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:05.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:05.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:06.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:06.565Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:07.065Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:07.693Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:08.193Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:08.692Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:09.192Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:09.692Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:10.193Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:10.693Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:11.193Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:11.693Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:12.192Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:12.693Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:13.192Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:13.693Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:14.193Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:14.693Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:15.192Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:15.693Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:16.192Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:16.693Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:17.192Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:17.692Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:18.193Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:18.692Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:19.192Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:19.692Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:20.193Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:20.693Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:21.192Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:21.693Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:22.192Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:22.693Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:21.556Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:22.056Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:22.556Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-h5ms6"}
+2026-10-14T18:19:23.057Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:23.556Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:24.057Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:24.556Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:25.057Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:25.557Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:26.056Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:26.556Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:27.056Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-vhpcq"}
+2026-10-14T18:19:27.556Z OK {"version": "1.0.0", "student": "02230125", "pod": "notice-board-774b8f65cb-4sxbz"}
+2026-10-14T18:19:28.057Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:28.559Z FAIL URLError: <urlopen error timed out>
+2026-10-14T18:19:29.057Z FAIL URLError: <urlopen error timed out>
+2026-10-14T18:19:29.556Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:30.056Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:30.556Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:31.056Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:31.556Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:32.057Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:32.556Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:33.056Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:33.556Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:34.056Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:34.556Z FAIL URLError: <urlopen error timed out>
+2026-10-14T18:19:35.056Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:35.556Z FAIL URLError: <urlopen error timed out>
+2026-10-14T18:19:36.146Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:35.780Z FAIL URLError: <urlopen error timed out>
+2026-10-14T18:19:36.280Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:36.780Z FAIL URLError: <urlopen error timed out>
+2026-10-14T18:19:37.280Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:37.780Z FAIL URLError: <urlopen error timed out>
+2026-10-14T18:19:38.280Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:38.780Z FAIL URLError: <urlopen error timed out>
+2026-10-14T18:19:39.280Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:39.780Z FAIL URLError: <urlopen error timed out>
+2026-10-14T18:19:40.280Z FAIL URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T18:19:40.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-mfktl"}
+2026-10-14T18:19:41.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-mfktl"}
+2026-10-14T18:19:41.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-qbvfp"}
+2026-10-14T18:19:42.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-924nk"}
+2026-10-14T18:19:42.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-qbvfp"}
+2026-10-14T18:19:43.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-924nk"}
+2026-10-14T18:19:43.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-924nk"}
+2026-10-14T18:19:44.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-qbvfp"}
+2026-10-14T18:19:44.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-924nk"}
+2026-10-14T18:19:45.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-qbvfp"}
+2026-10-14T18:19:45.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-qbvfp"}
+2026-10-14T18:19:46.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-qbvfp"}
+2026-10-14T18:19:46.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-924nk"}
+2026-10-14T18:19:47.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-mfktl"}
+2026-10-14T18:19:47.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-mfktl"}
+2026-10-14T18:19:48.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-924nk"}
+2026-10-14T18:19:48.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-mfktl"}
+2026-10-14T18:19:49.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-924nk"}
+2026-10-14T18:19:49.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-qbvfp"}
+2026-10-14T18:19:50.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-924nk"}
+2026-10-14T18:19:50.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-mfktl"}
+2026-10-14T18:19:51.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-924nk"}
+2026-10-14T18:19:51.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-qbvfp"}
+2026-10-14T18:19:52.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-mfktl"}
+2026-10-14T18:19:52.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-924nk"}
+2026-10-14T18:19:53.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-qbvfp"}
+2026-10-14T18:19:53.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-qbvfp"}
+2026-10-14T18:19:54.280Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-mfktl"}
+2026-10-14T18:19:54.780Z OK {"version": "1.1.0", "student": "02230125", "pod": "notice-board-844f776766-qbvfp"}

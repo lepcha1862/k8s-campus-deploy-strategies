@@ -12,6 +12,10 @@ metadata:
   # Student-specific assessment namespace.
   namespace: nb-02230125
 
+  annotations:
+    # Record the purpose of the RollingUpdate revision.
+    kubernetes.io/change-cause: "Task 5: RollingUpdate release 1.1.0"
+
   labels:
     # Allows Deployment, ReplicaSet and Pods
     # to be listed using the same app label.
@@ -20,6 +24,19 @@ metadata:
 spec:
   # Three replicas provide multiple application instances.
   replicas: 3
+
+  # A new Pod must remain Ready for 5 seconds to count as available.
+  minReadySeconds: 5
+
+  # Replace Pods gradually while maintaining availability.
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      # Do not deliberately reduce available replicas below three.
+      maxUnavailable: 0
+
+      # Allow one extra Pod during the rollout.
+      maxSurge: 1
 
   selector:
     matchLabels:
@@ -33,14 +50,14 @@ spec:
         app: notice-board
 
         # Identifies the release for monitoring.
-        version: "1.0.0"
+        version: "1.1.0"
 
     spec:
       containers:
         - name: notice-board
 
-          # Locally built baseline image containing the student ID.
-          image: notice-board:02230125-1.0.0
+          # Locally built release image containing the student ID.
+          image: notice-board:02230125-1.1.0
 
           # Prevent all attempts to pull this image from a registry.
           imagePullPolicy: Never

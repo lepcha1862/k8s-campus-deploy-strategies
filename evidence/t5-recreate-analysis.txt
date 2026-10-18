@@ -1,0 +1,11 @@
+===== Recreate Release Analysis =====
+Requests in window: 144
+Failed requests: 27
+Version 1.0.0 responses: 90
+Version 1.1.0 responses: 27
+First failure: 2026-10-14T18:19:28.0570000+00:00
+Last failure: 2026-10-14T18:19:40.2800000+00:00
+First failure detail: URLError: <urlopen error [Errno 111] Connection refused>
+Last old-version response: 2026-10-14T18:19:27.5560000+00:00
+First new-version response: 2026-10-14T18:19:40.7800000+00:00
+=====================================
